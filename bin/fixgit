@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+'use strict';
+var fs = require('fs');
+var path = require('path');
+var chalk = require('chalk');
+
+var currentDir = process.cwd();
+var gitConfigPath = path.join(currentDir, '.git', 'config')
+
+if (!fs.statSync(gitConfigPath).isFile()) {
+  console.error(chalk.red("No .git/config file - this command must be run from within a git repository."));
+  process.exit(1);
+}
+
+var configFile = fs.readFileSync(gitConfigPath,{encoding:'utf8'});
+
+var newConfigFile = configFile.replace("https://github.com/", "git@github.com:");
+
+fs.writeFileSync(gitConfigPath, newConfigFile, 'utf8');

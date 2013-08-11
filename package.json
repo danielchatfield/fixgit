@@ -1,0 +1,32 @@
+{
+  "name": "fixgit",
+  "version": "0.0.0",
+  "description": "Small command line utility to make a github repo use the SSH git@github... syntax instead of the https://github.com syntax.",
+  "bin": {
+    "fixgit": "./bin/fixgit"
+  },
+  "homepage": "https://github.com/danielchatfield/fixgit",
+  "bugs": "https://github.com/danielchatfield/fixgit/issues",
+  "author": {
+    "name": "Daniel Chatfield",
+    "email": "chatfielddaniel@gmail.com",
+    "url": "https://github.com/danielchatfield/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielchatfield/fixgit"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "chalk": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  }
+}
