@@ -1,4 +1,4 @@
-# fixgit [![Build Status](https://secure.travis-ci.org/danielchatfield/fixgit.png?branch=master)](http://travis-ci.org/danielchatfield/fixgit) [![Dependency Status](https://david-dm.org/danielchatfield/fixgit)](https://david-dm.org/danielchatfield/fixgit) 
+# fixgit [![Build Status](https://secure.travis-ci.org/danielchatfield/fixgit.png?branch=master)](http://travis-ci.org/danielchatfield/fixgit) [![Dependency Status](https://david-dm.org/danielchatfield/fixgit.png)](https://david-dm.org/danielchatfield/fixgit) 
 
 Small command line utility to make a github repo use the SSH git@github... syntax instead of the https://github.com syntax.
 
