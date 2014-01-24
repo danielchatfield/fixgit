@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         src: 'Gruntfile.js'
       },
       bin: {
-        src: ['bin/gitfix']
+        src: ['bin/fixgit']
       }
     },
     watch: {
