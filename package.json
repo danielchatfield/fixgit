@@ -1,6 +1,6 @@
 {
   "name": "fixgit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Small command line utility to make a github repo use the SSH git@github... syntax instead of the https://github.com syntax.",
   "bin": {
     "fixgit": "./bin/fixgit"
